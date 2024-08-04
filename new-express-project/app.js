@@ -79,7 +79,7 @@ app.delete("/api/todos/:id", async (req, res)=>{
 
 //listening at server
 app.listen(PORT, (req,res)=>{
-    mongoose.connect('mongodb+srv://menosuper6:A44BPJkWRFcAcF4o@backenddb.enm3wy7.mongodb.net/?retryWrites=true&w=majority&appName=BackendDB')
+    mongoose.connect('mongodb+srv://menosuper6:<password>@backenddb.enm3wy7.mongodb.net/?retryWrites=true&w=majority&appName=BackendDB')
      .then(() => {
         console.log('Connected to DB!');
      })
